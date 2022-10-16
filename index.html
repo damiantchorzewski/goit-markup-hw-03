@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,59 +12,61 @@
     <title>Studio</title>
   </head>
   <body class="body-index">
-    <header class="box-header">
-            <a class="logo-header" href="./index.html" title="WebStudio"><span class="logo-web">Web</span>Studio</a>
-            <nav>
-                <ul class="menu-navi">
-                    <li><a class="link-k" href="#">Kontakt</a></li>
-                    <li><a class="link-p" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="link-a" href="#">Agencja</a></li>
+    <header class="header">
+        <div class="container">
+            <nav class="nav-header">
+                <a class="logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+                <ul class="nav-header">
+                    <li><a class="nav-header-item" href="./index.html">Agencja </a></li>
+                    <li><a class="nav-header-item" href="./portfolio.html"> Portfolio </a></li>
+                    <li><a class="nav-header-item" href="#"> Kontakt </a></li>
                 </ul>
             </nav>
-            <section>
-                <ul> 
-                    <li><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="header-tel" href="tel:+48111111111">+48 111 111 111</a></li>
-                </ul>
-            </section>
+            <ul class="address">
+                <li><a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="address-tel" href="tel:+48111111111"> +48 111 111 111</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <div class="baner">
-        <section>
-            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <h1 class="baner-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
             <button class="btn-order" type="button">Zamów usługę</button>
-        </section>
         </div>
-        <section>
+        <section class="section">
+            <div class="container">
             <ul class="box-skills">
-                <li class="skill1"><h4>LOREM IPSUM</h4>
+                <li class="skill"><h4>LOREM IPSUM</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
-                <li class="skill2"><h4>LOREM IPSUM</h4>
+                <li class="skill"><h4>LOREM IPSUM</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
-                <li class="skill3"><h4>LOREM IPSUM</h4>
+                <li class="skill"><h4>LOREM IPSUM</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
-                <li class="skill4"><h4>LOREM IPSUM</h4>
+                <li class="skill"><h4>LOREM IPSUM</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
                     </p></li>
             </ul>
+            </div>
         </section>
         <section >
+            <div class="container">
             <h2 class="title1">Czym się zajmujemy</h2>
             <ul class="box-img">
-            <li class="image1"><img src="images/zdj1.jpg" 
+            <li class="image"><img src="images/zdj1.jpg" 
                     alt="programowanie" 
                     width="370" 
                     height="294"></li>
-            <li class="image2"><img src="images/zdj2.jpg" 
+            <li class="image"><img src="images/zdj2.jpg" 
                     alt="smartfony" 
                     width="370" 
                     height="294"/></li>
-            <li class="image3"><img 
+            <li class="image"><img 
                 src="images/zdj3.jpg" 
                 alt="desing" 
                 width="370" 
                 height="294"/></li>
             </ul>
+            </div>
         </section>
         <section>
             <div class="team" >
