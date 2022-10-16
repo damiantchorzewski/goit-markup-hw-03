@@ -225,7 +225,7 @@ ul {
     display:flex;
     font-size: 14px;
     width: 1170px;
-    height: 101px;
+    height: 95px;
     letter-spacing: 0.03em;
     line-height: 1.71;
     justify-content: space-between;
@@ -234,7 +234,7 @@ ul {
 .skill
 {
     width: 270px;
-    height: 101px;
+    height: 95px;
     text-align: justify;
 }
 .title1 {
@@ -244,20 +244,21 @@ ul {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-bottom: 50px;
-      
+    margin-bottom: 35px;
+   
 }
     .box-img
 {
-list-style: none;
+    list-style: none;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    
+    
 }
 .image
 {
     margin: 15px;
-        padding: 0;
+    padding: 0;
 }
 .title2
 {
