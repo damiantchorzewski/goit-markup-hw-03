@@ -103,8 +103,10 @@ ul {
 
 
 .container {
-    width: 1200px;
+    width:100%;
     margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
 }
 
 .header .container {
@@ -247,7 +249,7 @@ ul {
     margin-bottom: 35px;
    
 }
-    .box-img
+.box-img
 {
     list-style: none;
     display: flex;
@@ -262,78 +264,44 @@ ul {
 }
 .title2
 {
-    position: absolute;
-    width: 300px;
-    height: 42px;
-    left: 650px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-bottom: 35px;
 }
 .team-cards
 {
-    position: absolute;
-    width: 1170px;
-    height: 368px;
+    display: flex;
+    justify-content: center;
+    line-height: 2.8;
     text-align: center;
-    font-size: 16px;
+    ;
 }
-.team
+/*.team
 {    
-    position: absolute;
+position: absolute;
     width: 1600px;
     height: 648px;
+    left: 0px;
     top: 1449px;
+
     background: #F5F4FA;
-}  
-.card-1
+}  */
+.card
 {
-    position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 180px;
-    top:100px;
+    margin:15px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
-}
-.card-2
-{
-    position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 480px;
-    top: 100px; 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    background: #FFFFFF;
+    
+
+
+    
 }
 
-.card-3
-{
-    position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 780px;
-    top: 100px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    background: #FFFFFF;
-}
-.card-4
-{
-    position: absolute;
-    width: 270px;
-    height: 368px;
-    left: 1080px;
-    top: 100px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    background: #FFFFFF;
-}
 .logo-footer 
 {
     text-decoration: none;
@@ -598,3 +566,9 @@ position: absolute;
 .section
 {padding-top: 94px;
 padding-bottom: 94px;}
+.section-team
+{
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
