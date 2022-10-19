@@ -49,6 +49,7 @@ p,
 ul {
     margin: 0;
     padding: 0;
+    letter-spacing: 0.03em;
 }
 .footer-index
 {
@@ -67,7 +68,8 @@ ul {
 {
     color:#000000; 
 }
-.container {
+.container 
+{
     width:100%;
     margin: 0 auto;
     max-width: 1200px;
@@ -213,8 +215,6 @@ ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    
-    
 }
 .image
 {
@@ -308,7 +308,6 @@ ul
 }
 .btn-all
 {
-
     height: 38px;
     width: 121px;
     background: #F5F4FA;
@@ -317,18 +316,13 @@ ul
     font-style: normal;
     line-height: 0.31;
     text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
+    letter-spacing: 0.03em;
+    color: #212121;
 }
-
 .btn-pages
-{
-   
+{   
     height: 38px;
-    width: 93px;
- 
+    width: 93px; 
     background: #F5F4FA;
     border: 0;
     font-style: normal;
@@ -339,11 +333,8 @@ color: #212121;
 }
 .btn-app
 {
-
     height: 38px;
- 
     width: 114px;
-    
     height: 38px;
     background: #F5F4FA;
     border: 0;
@@ -355,10 +346,8 @@ color: #212121;
 }
 .btn-design
 {
-
     height: 38px;
     width: 91px;
- 
     background: #F5F4FA;
     border: 0;
     font-style: normal;
@@ -368,25 +357,23 @@ color: #212121;
     letter-spacing: 0.03em;
 }
 .btn-mark
-    {
-   
-         width: 121px;
-         height: 38px;
-     
-        background: #F5F4FA;
-        border: 0;
-        font-size: 16px;
-        font-style: normal;
-        line-height: 0.31;
-        text-align: center;
-        letter-spacing: 0.03em;
-    }
+{
+    width: 121px;
+    height: 38px;
+    background: #F5F4FA;
+    border: 0;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 0.31;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 .post-figure
 {
     box-sizing: border-box;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
     margin: 0%;
     padding-bottom: 0%;
     line-height:2.8;
@@ -396,10 +383,10 @@ color: #212121;
 
 .list-post
 {
- display: flex;
- flex-wrap: wrap;
-        gap: 25px;
-       justify-content:center;
+     display: flex; 
+     flex-wrap: wrap;
+    gap: 25px;
+    justify-content:center;
 }
 .section-btn
 {
@@ -408,12 +395,13 @@ color: #212121;
 .text-post
 {
     line-height: 36px;
-    margin-left: 24px;
-        
+    margin-left: 24px;     
 }
 .section
-{padding-top: 94px;
-padding-bottom: 94px;}
+{
+    padding-top: 94px;
+padding-bottom: 94px;
+}
 .section-team
 {
     background: #F5F4FA;
@@ -425,4 +413,9 @@ padding-bottom: 94px;}
 padding-bottom: 94px;
 }
 .logo-web
-{color: #2196F3;}
+{
+    color: #2196F3;
+}
+#btn {
+    margin-right: 8px;
+}
