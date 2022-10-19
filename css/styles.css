@@ -1,25 +1,12 @@
-.body-index 
+body
 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    width: 1600px;
-    height: 2349px;
-    position: relative;
-    color: #757575;
-    background: #FFFFFF;
-}
-.body-portfolio
-{
-    width: 1600px;
-    height: 1880px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     position: relative;
     color: #757575;
     background: #FFFFFF;
-        }
+}
 a:hover 
 {
     color: #2196F3;
@@ -43,52 +30,15 @@ h5
     letter-spacing: 0.03em;
     margin-bottom: -8px;
 }
-.footer-index
-{
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
-    background: #2F303A;
+ul {
+    list-style-type: none;
 }
-.footer-portfolio
-{
-    position: absolute;
-        width: 1600px;
-        height: 252px;
-        left: 0px;
-        top: 1628px;
-        background: #2F303A;
-}
-ul
-{
-    list-style-type:none;
-}
-button 
-{
-    font-family:inherit;
+
+button {
+    font-family: inherit;
     cursor: pointer;
     border-radius: 4px;
 }
-.footer-list
-{
-    position: absolute;
-    width: 246px;
-    height: 100px;
-    left: 215px;
-    top: 80px;
-    padding: 0%;
-}
-.btn-order:hover
-{
-    color:#000000;
-}
-.btn-order:focus
-{
-    color:#000000; 
-}
-
 h1,
 h2,
 h3,
@@ -100,13 +50,30 @@ ul {
     margin: 0;
     padding: 0;
 }
-
-
+.footer-index
+{
+    background: #2F303A;
+}
+.footer-content
+{
+    display: inline;
+    
+}
+.btn-order:hover
+{
+    color:#000000;
+}
+.btn-order:focus
+{
+    color:#000000; 
+}
 .container {
     width:100%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
+    align-items: center;
+   
 }
 
 .header .container {
@@ -124,14 +91,6 @@ ul {
 .address-tel {
     margin-left: 50px;
 }
-
-.nav-header,
-.address,
-.button-list,
-.portfolio-list {
-    list-style: none;
-}
-
 .nav-header-item,
 .address-mail,
 .address-tel,
@@ -160,11 +119,6 @@ ul {
     text-decoration: none;
     margin-right: 93px;
 }
-
-.logo-accent {
-    color: #2196F3;
-}
-
 .address-mail,
 .address-tel {
     font-size: 14px;
@@ -181,13 +135,12 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.baner
+.section-baner
 {
-    width: 1600px;
-    height: 600px;
     background: #2F303A;    
-    display: flex;
-    flex-direction:column;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 .baner-text
 {
@@ -195,15 +148,24 @@ ul {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    display: flex;
-    justify-content: center;
     line-height: 1.36;
     text-align: center;
-    margin: auto auto 15px auto;
-    width: 696px;
-    height: 120px;
-}
 
+}
+.box-baner
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 106px;
+    margin-bottom: 106px;
+}
+.btn-baner
+{
+    padding-top: 40px;
+}
 .btn-order
 {
     width: 200px;
@@ -214,13 +176,10 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    margin: 15px auto auto;
     text-align: center;
-    padding: 10px 41px;
     border:0;
     border-radius: 4px;
 }
- 
 .box-skills
 {
     list-style: none;
@@ -237,9 +196,10 @@ ul {
 {
     width: 270px;
     height: 95px;
-    text-align: justify;
+    text-align: left;
 }
-.title1 {
+.title1 
+{
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -247,7 +207,6 @@ ul {
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 35px;
-   
 }
 .box-img
 {
@@ -278,97 +237,56 @@ ul {
     justify-content: center;
     line-height: 2.8;
     text-align: center;
-    ;
 }
-/*.team
-{    
-position: absolute;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
-
-    background: #F5F4FA;
-}  */
 .card
 {
     margin:15px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
-    
-
-
-    
 }
-
+.footer-list
+{
+    padding-top: 11px;
+}
 .logo-footer 
 {
     text-decoration: none;
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 60px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
     color: #ffffff;
+}
+.address-item
+{
+    margin-top: 20px;
 }
 .footer-address
 { 
-    font-style: normal;
-    position: absolute;
-    width: 250px;
-    height: 21px;
-    font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
+    font-style: normal;
+    font-size: 14px;
     color: #FFFFFF;
-    
 }
 .mail-footer 
 {
-    text-decoration: none;
-    text-decoration: underline;
-    font-style: normal;
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    top: 42px;
-    font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
 }
 .tel-footer
 {
-    text-decoration: none;
-    position: absolute;
-    font-style: normal;
-    width: 231px;
-    height: 21px; 
-    top: 70px;
-    font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
-
 }
 ul
 {
     list-style-type:none;
-}
-.footer-list
-{
-    position: absolute;
-    width: 246px;
-    height: 100px;
-    left: 215px;
-    top: 80px;
-    padding: 0%;
 }
 #btn:hover
 {
@@ -382,13 +300,17 @@ ul
     color: #F5F4FA;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+.list-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
 .btn-all
 {
-    position: absolute;
+
     height: 38px;
     width: 121px;
-    left: 510px;
-    top: 174px;
     background: #F5F4FA;
     font-size: 16px;
     border: 0;
@@ -400,13 +322,13 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
+
 .btn-pages
 {
-    position: absolute;
+   
     height: 38px;
     width: 93px;
-    left: 639px;
-    top: 174px;
+ 
     background: #F5F4FA;
     border: 0;
     font-style: normal;
@@ -417,11 +339,11 @@ color: #212121;
 }
 .btn-app
 {
-position: absolute;
+
     height: 38px;
-    left: 740px;
+ 
     width: 114px;
-    top: 174px;
+    
     height: 38px;
     background: #F5F4FA;
     border: 0;
@@ -433,11 +355,10 @@ position: absolute;
 }
 .btn-design
 {
-    position: absolute;
+
     height: 38px;
     width: 91px;
-     left: 862px;
-     top: 174px;
+ 
     background: #F5F4FA;
     border: 0;
     font-style: normal;
@@ -448,11 +369,10 @@ position: absolute;
 }
 .btn-mark
     {
-        position: absolute;
+   
          width: 121px;
          height: 38px;
-         left: 961px;
-         top: 174px;
+     
         background: #F5F4FA;
         border: 0;
         font-size: 16px;
@@ -461,107 +381,35 @@ position: absolute;
         text-align: center;
         letter-spacing: 0.03em;
     }
-    .post1
-    {
-        box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        left: 215px;
-        top: 262px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
-    }
-    .post2
-    {
-        box-sizing: border-box;
-            position: absolute;
-            width: 370px;
-            height: 404px;
-            left: 615px;
-            top: 262px;
-            background: #FFFFFF;
-            border: 1px solid #EEEEEE;
-    }
-    .post3
-        {box-sizing: border-box;
-        position: absolute;
-        width: 370px;
-        height: 404px;
-        left: 1015px;
-        top: 262px;
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
-}
-.post4
+
+.post-figure
 {
     box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 696px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    margin: 0%;
+    padding-bottom: 0%;
+    line-height:2.8;
 }
-.post5
+
+
+
+.list-post
 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 696px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+ display: flex;
+ flex-wrap: wrap;
+        gap: 25px;
+       justify-content:center;
 }
-.post6
+.section-btn
 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 696px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-.post7
-{
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 1130px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-.post8
-{
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 1130px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-.post9
-{
-    box-sizing: border-box;
-    position: absolute;
-    width: 370px;
-    height: 404px;
-    left: 1015px;
-    top: 1130px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    padding-top: 94px;
 }
 .text-post
 {
+    line-height: 36px;
     margin-left: 24px;
+        
 }
 .section
 {padding-top: 94px;
@@ -572,3 +420,9 @@ padding-bottom: 94px;}
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.section-img
+{
+padding-bottom: 94px;
+}
+.logo-web
+{color: #2196F3;}
