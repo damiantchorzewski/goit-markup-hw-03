@@ -83,13 +83,11 @@ ul {
     align-items: center;
     height: 80px;
 }
-
 .nav-header,
 .address {
     display: flex;
     align-items: center;
 }
-
 .address-tel {
     margin-left: 50px;
 }
@@ -99,18 +97,15 @@ ul {
 .portfolio-list {
     text-decoration: none;
 }
-
 .nav-header-item {
     margin-right: 46px;
     justify-content: flex-start;
     align-items: center;
 }
-
 .address {
     margin-left: auto;
     justify-content: flex-end;
 }
-
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -126,9 +121,7 @@ ul {
     font-size: 14px;
     font-weight: 500;
     color: #757575;
-
 }
-
 .nav-header-item {
     color: #000000;
     font-weight: 500;
@@ -136,13 +129,11 @@ ul {
     line-height: 1.143;
     letter-spacing: 0.02em;
 }
-
 .section-baner
 {
     background: #2F303A;    
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 .baner-text
 {
@@ -331,9 +322,6 @@ ul
     padding-bottom: 0%;
     line-height:2.8;
 }
-
-
-
 .list-post
 {
      display: flex; 
